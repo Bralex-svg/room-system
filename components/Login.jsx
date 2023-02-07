@@ -27,6 +27,21 @@ function Login() {
   //   console.log(data);
   // };
 
+  // const fetchSec = async () => {
+  //   try {
+  //     const { data } = await axios.post(
+  //       "https://genapps.cktutas.edu.gh/venueapi/index.php",
+  //       {
+  //         type: "login",
+  //         key: "apiapp098",
+  //       }
+  //     );
+  //     console.log(data);
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // };
+
   async function testRequest() {
     try {
       const response = await Controller(
@@ -46,6 +61,10 @@ function Login() {
   useEffect(() => {
     testRequest();
   }, []);
+  // useEffect(() => {
+  //   fetchSec();
+  // }, []);
+
   return (
     <>
       <h1 className="absolute top-[30px] text-5xl font-bold ml-[15%] text-white">

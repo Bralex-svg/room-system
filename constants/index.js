@@ -4,7 +4,7 @@ export const EndPointParams = {
     login: "login",
   },
   bookings: {
-    fetch: "fetchbookings",
+    fetch: "fetchbooking",
     save: "savebooking",
   },
 
